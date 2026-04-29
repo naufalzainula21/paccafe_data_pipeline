@@ -1,0 +1,276 @@
+{
+    "person_in_charge": "Naufal",
+    "date_quality_check": "2026-04-29 09:43:59",
+    "result": {
+        "products": {
+            "missing_values": {},
+            "date_validity": {},
+            "numeric_validity": {
+                "unit_price": {
+                    "column": "unit_price",
+                    "is_numeric": false,
+                    "invalid_values": [
+                        "$47.00",
+                        "$47.00",
+                        "$17.00",
+                        "$21.00",
+                        "$43.00",
+                        "$9.00",
+                        "$2.00",
+                        "$48.00",
+                        "$10.00",
+                        "$13.00",
+                        "$10.00",
+                        "$37.00",
+                        "$18.00",
+                        "$47.00",
+                        "$37.00",
+                        "$33.00",
+                        "$41.00",
+                        "$23.00",
+                        "$29.00",
+                        "$11.00",
+                        "$23.00",
+                        "$37.00",
+                        "$39.00",
+                        "$42.00",
+                        "$32.00",
+                        "$19.00",
+                        "$32.00",
+                        "$15.00",
+                        "$35.00",
+                        "$12.00",
+                        "$23.00",
+                        "$21.00",
+                        "$34.00",
+                        "$44.00",
+                        "$7.00",
+                        "$21.00",
+                        "$6.00",
+                        "$20.00",
+                        "$10.00",
+                        "$33.00",
+                        "$48.00",
+                        "$23.00",
+                        "$13.00",
+                        "$7.00",
+                        "$34.00",
+                        "$46.00",
+                        "$20.00",
+                        "$35.00",
+                        "$4.00",
+                        "$38.00",
+                        "$19.00",
+                        "$37.00",
+                        "$-15.00",
+                        "$-11.00"
+                    ]
+                },
+                "cost_price": {
+                    "column": "cost_price",
+                    "is_numeric": false,
+                    "invalid_values": [
+                        "$43.00",
+                        "$43.00",
+                        "$14.00",
+                        "$20.00",
+                        "$40.00",
+                        "$1.00",
+                        "$-3.00",
+                        "$45.00",
+                        "$6.00",
+                        "$9.00",
+                        "$2.00",
+                        "$34.00",
+                        "$11.00",
+                        "$38.00",
+                        "$35.00",
+                        "$27.00",
+                        "$35.00",
+                        "$17.00",
+                        "$26.00",
+                        "$6.00",
+                        "$20.00",
+                        "$28.00",
+                        "$38.00",
+                        "$36.00",
+                        "$27.00",
+                        "$16.00",
+                        "$29.00",
+                        "$12.00",
+                        "$27.00",
+                        "$6.00",
+                        "$14.00",
+                        "$14.00",
+                        "$32.00",
+                        "$40.00",
+                        "$-3.00",
+                        "$16.00",
+                        "$-2.00",
+                        "$12.00",
+                        "$2.00",
+                        "$28.00",
+                        "$44.00",
+                        "$21.00",
+                        "$8.00",
+                        "$0.00",
+                        "$24.00",
+                        "$37.00",
+                        "$18.00",
+                        "$32.00",
+                        "$1.00",
+                        "$32.00",
+                        "$27.00",
+                        "$43.00",
+                        "$18.00",
+                        "$14.00"
+                    ]
+                }
+            },
+            "negative_validity": {
+                "unit_price": {
+                    "column": "unit_price",
+                    "negative_count": 2,
+                    "negative_values": [
+                        -15.0,
+                        -11.0
+                    ]
+                },
+                "cost_price": {
+                    "column": "cost_price",
+                    "negative_count": 3,
+                    "negative_values": [
+                        -3.0,
+                        -3.0,
+                        -2.0
+                    ]
+                }
+            }
+        },
+        "inventory_tracking": {
+            "missing_values": {},
+            "date_validity": {
+                "change_date": {
+                    "column": "change_date",
+                    "is_datetime": true,
+                    "invalid_dates": []
+                }
+            },
+            "numeric_validity": {
+                "quantity_change": {
+                    "column": "quantity_change",
+                    "is_numeric": true,
+                    "invalid_values": []
+                }
+            },
+            "negative_validity": {}
+        },
+        "orders": {
+            "missing_values": {
+                "customer_id": {
+                    "n_missing": "250",
+                    "percentage": 24.75
+                }
+            },
+            "date_validity": {
+                "order_date": {
+                    "column": "order_date",
+                    "is_datetime": true,
+                    "invalid_dates": []
+                }
+            },
+            "numeric_validity": {
+                "total_amount": {
+                    "column": "total_amount",
+                    "is_numeric": true,
+                    "invalid_values": []
+                }
+            },
+            "negative_validity": {
+                "total_amount": {
+                    "column": "total_amount",
+                    "negative_count": 0,
+                    "negative_values": []
+                }
+            }
+        },
+        "order_details": {
+            "missing_values": {},
+            "date_validity": {},
+            "numeric_validity": {
+                "unit_price": {
+                    "column": "unit_price",
+                    "is_numeric": true,
+                    "invalid_values": []
+                },
+                "quantity": {
+                    "column": "quantity",
+                    "is_numeric": true,
+                    "invalid_values": []
+                },
+                "subtotal": {
+                    "column": "subtotal",
+                    "is_numeric": true,
+                    "invalid_values": []
+                }
+            },
+            "negative_validity": {
+                "unit_price": {
+                    "column": "unit_price",
+                    "negative_count": 0,
+                    "negative_values": []
+                },
+                "quantity": {
+                    "column": "quantity",
+                    "negative_count": 0,
+                    "negative_values": []
+                },
+                "subtotal": {
+                    "column": "subtotal",
+                    "negative_count": 0,
+                    "negative_values": []
+                }
+            }
+        },
+        "customers": {
+            "missing_values": {
+                "phone": {
+                    "n_missing": "4",
+                    "percentage": 1.96
+                }
+            },
+            "date_validity": {},
+            "numeric_validity": {
+                "loyalty_points": {
+                    "column": "loyalty_points",
+                    "is_numeric": true,
+                    "invalid_values": []
+                }
+            },
+            "negative_validity": {
+                "loyalty_points": {
+                    "column": "loyalty_points",
+                    "negative_count": 4,
+                    "negative_values": [
+                        -710,
+                        -525,
+                        -304,
+                        -993
+                    ]
+                }
+            }
+        },
+        "employees": {
+            "missing_values": {},
+            "date_validity": {
+                "hire_date": {
+                    "column": "hire_date",
+                    "is_datetime": false,
+                    "invalid_dates": []
+                }
+            },
+            "numeric_validity": {},
+            "negative_validity": {}
+        }
+    }
+}
