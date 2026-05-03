@@ -1,6 +1,6 @@
 {
     "person_in_charge": "Naufal",
-    "date_quality_check": "2026-04-30 16:54:14",
+    "date_quality_check": "2026-05-02 18:05:24",
     "result": {
         "products": {
             "missing_values": {},
@@ -265,7 +265,7 @@
             "date_validity": {
                 "hire_date": {
                     "column": "hire_date",
-                    "is_datetime": false,
+                    "is_datetime": true,
                     "invalid_dates": []
                 }
             },
